@@ -30,7 +30,7 @@ def ParseData(data_file):
     j = json.load(open(data_file))
     images = j['images']
     for item in images:
-        assert len(item['url']) == 1
+        assert len(item['url']) == 1, "url: %s " % item['url']
         url = item['url'][0]
         id_ = item['image_id']
         if id_ in ann:
