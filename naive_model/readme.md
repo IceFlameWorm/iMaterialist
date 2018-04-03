@@ -12,6 +12,6 @@
  ### **2**：制作TFRecords 文件
  naive_model/utils/image_to_TFRecord.py
 ### **3**：train
-iMaterialist/train_predict/imaterialist_train.py
+naive_model/train_predict/imaterialist_train.py
 ### **4**：predict
 naive_model/train_predict/imaterialist_predict.py
