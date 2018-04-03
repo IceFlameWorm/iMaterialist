@@ -8,10 +8,10 @@
 
 
  ### **1**：把png格式转成jpg
- iMaterialist/utils/PNG2JPG.py
+ naive_model/utils/PNG2JPG.py
  ### **2**：制作TFRecords 文件
- iMaterialist/utils/image_to_TFRecord.py
+ naive_model/utils/image_to_TFRecord.py
 ### **3**：train
 iMaterialist/train_predict/imaterialist_train.py
 ### **4**：predict
-iMaterialist/train_predict/imaterialist_predict.py
+naive_model/train_predict/imaterialist_predict.py
